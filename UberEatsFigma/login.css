@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #1e1e1e;
+  }
+  
+  /* CONTENEDOR GENERAL */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+  }
+  
+  /* HEADER */
+  .header {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .logo-black {
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 1px 1px 2px #aaa;
+  }
+  
+  .logo-green {
+    font-weight: bold;
+    color: #00c16a;
+    margin-left: 5px;
+    text-shadow: 1px 1px 2px #aaa;
+  }
+  
+  /* MAIN LOGIN */
+  .main-login {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .main-login h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  /* FORMULARIO */
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #222;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00c16a;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00c16a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #00aa5a;
+  }
+  
+  /* LINKS */
+  .links {
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  .links a {
+    color: #00c16a;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }  
