@@ -62,13 +62,13 @@
     text-align: center;
   }
   
-  /* FORMULARIO */
-  form {
+  /* FORMULARIO SIMULADO */
+  .login-form {
     width: 100%;
     max-width: 400px;
   }
   
-  form label {
+  .login-form label {
     display: block;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -76,7 +76,7 @@
     color: #222;
   }
   
-  form input {
+  .login-form input {
     width: 100%;
     padding: 10px;
     border: 2px solid #00c16a;
@@ -86,20 +86,21 @@
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
   }
   
-  form button {
+  .login-button {
+    display: inline-block;
     width: 100%;
     padding: 12px;
+    text-align: center;
     background-color: #00c16a;
     color: white;
     font-size: 16px;
-    border: none;
     border-radius: 25px;
-    cursor: pointer;
+    text-decoration: none;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
     transition: background-color 0.3s;
   }
   
-  form button:hover {
+  .login-button:hover {
     background-color: #00aa5a;
   }
   

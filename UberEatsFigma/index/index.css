@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-color: #ffffff;
+  }
+  
+  /* HERO */
+  .hero {
+    position: relative;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .logout-btn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 30px;
+  }
+  
+  .logout-btn img {
+    width: 100%;
+  }
+  
+  /* Greeting text */
+  .greeting {
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+  .greeting h2 {
+    font-size: 24px;
+  }
+  
+  .greeting p {
+    font-size: 16px;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+  }
+  
+  .location-icon {
+    background-color: #00c16a;
+    padding: 10px;
+  }
+  
+  .location-icon img {
+    width: 20px;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .search-icon {
+    padding: 0 12px;
+  }
+  
+  .search-icon img {
+    width: 20px;
+  }
+  
+  /* CATEGORIES */
+  .categories {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .category img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  .category p {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  /* OFFERS */
+  .offers {
+    padding: 30px 20px;
+  }
+  
+  .offers h3 {
+    color: #888;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  /* RESTAURANT CARD */
+  .restaurant-card {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-top: 10px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .restaurant-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .restaurant-info {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .rating-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #00c16a;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px 0 8px 0;
+    font-size: 12px;
+  }
+  
+  .restaurant-info h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .restaurant-info .type {
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .restaurant-info .hours {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 8px;
+  }
+  
+  .review {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 6px;
+  }
+  
+  .stars span {
+    font-size: 14px;
+  }
+  
+  .green {
+    color: #00c16a;
+  }
+  
+  .gray {
+    color: #ccc;
+  }
+  
+  .votes {
+    color: #888;
+  }
+  
+  .price {
+    margin-left: auto;
+  }  

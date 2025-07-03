@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* BARRA DE BÚSQUEDA */
+  .search-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  
+  .left-box {
+    background-color: #00c16a;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left-box img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .right-box {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+  }
+  
+  .right-box input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .search-icon img {
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+  /* TITULO OFFERS */
+  .offers h3 {
+    color: #888;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  
+  /* TARJETAS */
+  .restaurant-card {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .restaurant-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .restaurant-info {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .rating-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #00c16a;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 8px 0 8px 0;
+    font-size: 12px;
+  }
+  
+  .restaurant-info h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .restaurant-info .type {
+    font-size: 13px;
+    color: #444;
+  }
+  
+  .restaurant-info .hours {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 8px;
+  }
+  
+  .review {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 6px;
+  }
+  
+  .stars span {
+    font-size: 14px;
+  }
+  
+  .green {
+    color: #00c16a;
+  }
+  
+  .gray {
+    color: #ccc;
+  }
+  
+  .votes {
+    color: #888;
+  }
+  
+  .price {
+    margin-left: auto;
+  }  
