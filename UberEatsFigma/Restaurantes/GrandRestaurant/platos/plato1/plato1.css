@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.icon-left {
+  width: 22px;
+  height: 22px;
+}
+
+.icon-right {
+  width: 40px;
+  height: 40px;
+}
+
+.restaurant-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* PLATO IMAGEN + PRECIO */
+.dish-image-container {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.dish-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.price-badge {
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+  background-color: #00c16a;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 0 10px 0 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* INFO */
+.dish-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.dish-content h2 {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.euro-symbols {
+  color: #00c16a;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.short-desc {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.long-desc {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 40px;
+  padding: 0 10px;
+}
+
+/* BOTÓN */
+.add-cart-btn {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto 30px;
+  text-align: center;
+  background-color: #00c16a;
+  color: white;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+.add-cart-btn:hover {
+  background-color: #00a85a;
+}

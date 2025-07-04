@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.icon-left {
+  width: 22px;
+  height: 22px;
+}
+
+.icon-right {
+  width: 40px;
+  height: 40px;
+}
+
+.restaurant-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* IMAGEN */
+.image-container {
+  width: 100%;
+}
+
+.restaurant-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* RATING Y PRECIO */
+.rating-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: -35px;
+  margin-right: 15px;
+}
+
+.rating-box {
+  background-color: #00c16a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px 0 12px 0;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.price-level {
+  font-size: 16px;
+  margin-top: 6px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.green {
+  color: #00c16a;
+}
+
+.gray {
+  color: #ccc;
+}
+
+/* INFO */
+.info {
+  padding: 20px;
+  background-color: white;
+}
+
+.info h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.location {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.icons-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon-text {
+  flex: 1;
+}
+
+.icon-text img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+.icon-text span {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0;
+  background-color: white;
+  box-shadow: 0 -2px 6px #00c16a;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #888;
+  font-weight: normal;
+  padding-top: 4px;
+  position: relative;
+}
+
+.footer a.active-tab {
+  color: #000;
+  font-weight: bold;
+}
+
+.footer a.active-tab::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 4px;
+  width: 100%;
+  background-color: #00c16a;
+  border-radius: 10px 10px 0 0;
+}
