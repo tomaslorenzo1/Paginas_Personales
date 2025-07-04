@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.full-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  font-size: 42px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.uber {
+  color: black;
+}
+
+.eats {
+  color: #00c16a;
+}
+
+.message {
+  font-size: 22px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #00c16a;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #00a659;
+}
